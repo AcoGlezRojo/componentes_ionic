@@ -18,6 +18,7 @@ export class ActionSheetPage implements OnInit {
       header: 'custom action sheet',
       cssClass: 'my-custom-class',
       mode: 'ios',
+      backdropDismiss: false,
       buttons: [{
         text: 'Delete',
         role: 'destructive',
